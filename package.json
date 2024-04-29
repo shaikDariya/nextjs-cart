@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx dev cart"
+    "start": "nx dev cart",
+    "build": "nx build cart"
   },
   "private": true,
   "dependencies": {
