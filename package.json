@@ -2,7 +2,9 @@
   "name": "@nextjs/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx dev cart"
+  },
   "private": true,
   "dependencies": {
     "next": "14.0.4",
