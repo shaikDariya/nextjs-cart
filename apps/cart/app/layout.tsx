@@ -12,7 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="flex flex-col h-screen">
+        <p>I'm Root Layout</p>
+        <div className="flex-1">{children}</div>
+      </body>
     </html>
   );
 }

@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nextjs/customers": ["lib/customers/src/index.ts"],
+      "@nextjs/prisma": ["lib/prisma/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
